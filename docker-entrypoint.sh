@@ -13,6 +13,6 @@ if [ -f "$runFile" ]; then
   chmod u+x ./$runFile
   ./$runFile
 else
-    echo -e "\e[31m$runFile does not exist. Did you forget to mount /ffmpeg-android-maker or set ANDROID_MAKER_COMMIT?\e[0m"
-    exit 1
+  echo -e "\e[31m$runFile does not exist. Did you forget to mount /ffmpeg-android-maker or set ANDROID_MAKER_COMMIT?\e[0m"
+  exit 1
 fi
