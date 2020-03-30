@@ -59,7 +59,7 @@ services:
         EXTRA_BUILD_CONFIGURATION_FLAGS: --disable-gpl
         ANDROID_MAKER_COMMIT: d668263fafdecb039e22daf3b5e2d01d4d6e1502
     volumes:
-        - /path/to/build/output:/ffmpeg-android-maker/build/build
+        - /path/to/build/output:/ffmpeg-android-maker/build
 ```
 
 And then run using
