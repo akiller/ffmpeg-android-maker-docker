@@ -30,7 +30,7 @@ Only set one of these.
 
 ### Building
 
-This will download ffmpeg, build it, and then copy the output to /build:
+This will download ffmpeg, build it, and then copy the output to /ffmpeg-android-maker/build:
 ```sh
 docker container run --rm \
   -e EXTRA_BUILD_CONFIGURATION_FLAGS=--disable-gpl \
